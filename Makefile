@@ -3,7 +3,7 @@ VPATH=src/:src/ext
 ODIR=src/obj
 LDIR =lib
 BINDIR=bin
-MYBIN=/home/maan/pulsar_softwares/bin/
+MYBIN=/usr/local/bin
 
 CC=gcc
 CFLAGS=-I$(IDIR) -Wno-unused-result -O3 -march=native
